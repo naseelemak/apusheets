@@ -1,0 +1,178 @@
+﻿#head{
+	width: 900px;
+	/*background-color: #9ad3de;*/
+	margin-bottom: 30px;
+	opacity: 0.8;  
+}
+
+body{
+	background-position: center;
+	width: 900px;
+	background-repeat: no-repeat;
+	margin:0px;
+	/*background-image:url('backgroundimg.jpg');insert background image here*/
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-color:#c5d5cb;
+
+}
+
+
+/*slider*/
+/* usual player with images */
+            .player-container {
+            height: 28px;
+            white-space: nowrap;
+            }
+            .player-pause, .player-play, .player-forward, .player-back {
+            /* this displays element as inline-block; zoom and *display is a hack for ie7 which does not support inline-block */
+            display: inline-block;
+            zoom: 1;
+            *display: inline;
+            cursor: pointer;
+            margin-left: 5px;
+            height: 28px;
+            width: 33px;
+            background-image: url(http://beaverslider.com/code/current/player.png);
+            }
+            .player-pause {
+            background-position: -199px 0;
+            width: 28px;
+            }
+            .player-pause:hover {
+            background-position: -161px 0;
+            }
+            .player-play {
+            background-position: -356px 0;
+            width: 28px;
+            }
+            .player-play:hover {
+            background-position: -319px 0;
+            }
+            .player-back {
+            background-position: -275px 0;
+            }
+            .player-back:hover {
+            background-position: -234px 0;
+            }
+            .player-forward {
+            background-position: -434px 0;
+            }
+            .player-forward:hover {
+            background-position: -393px 0;
+            }
+            
+
+
+#wrapper{
+	width: 900px ;
+	margin-left: auto ;
+	margin-right: auto ;
+	height: 400px;
+	}
+#nav {
+	width:900px;
+	text-align:center;
+	height:60px;
+	
+}
+
+
+#navigation {
+margin-top:10px;
+	width:900px;
+	margin-left: auto ;
+	margin-right: auto ;
+	height:60px;
+	text-align:center;
+}
+		
+
+#nav ul {
+	text-align: center;
+	display: inline;
+	padding: 15px 4px 2px 0;
+	color: #ffffff;
+	-webkit-font-smoothing: antialiased;
+	font-family:Tangerine;
+	
+	
+}
+ 
+#nav ul:hover {
+	-webkit-transition-duration:0.50s;
+}
+
+#nav ul li {
+	margin-right:-4px;
+	
+	border: 2px #000000 solid;
+	display: inline-block;
+	position: relative;
+	padding: 15px 14px;
+	background-color:#b0aac2 ;
+	height: 20px;
+	width: 148px;
+	opacity: 0.9;
+	-webkit-transition-duration: 0.50s;
+	font-size: large;
+}
+
+#nav ul li:hover{
+	background-color: #89bdd3;
+	opacity:1;
+	-webkit-transition-duration:0.50s;
+ 
+ 
+}
+
+#nav ul li ul {
+	padding: 0;
+	position: absolute;
+	top:50px;
+	left: 0;
+	margin-right:-4px;
+	width: 900px;
+	display: none;
+	opacity: 0;
+	visibility: hidden;
+}
+/*this is the submenu*/
+#nav ul li ul li {
+	background: #555;
+	display: block;
+	color: #fff;
+	height:auto;
+}
+
+#nav ul li ul li:hover {
+	background: #bcd5d1;
+ }
+
+#nav ul li:hover ul {
+	display: block;
+	opacity: 1;
+	visibility: visible;
+}
+
+
+
+
+#content{
+	background: #9AB9A6 center;
+	background-position: center;
+	
+	padding: 10;
+	width:100%;
+	height:auto;
+	margin:2px;
+}
+
+#main-content,table{
+	width:890px;
+	height:auto;
+	
+	background-position:center;
+	
+	
+}
