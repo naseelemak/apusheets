@@ -1,0 +1,58 @@
+﻿
+h1 {
+	font-size: xx-large;
+	margin: 0px;
+}
+
+h2 {
+	font-size: 30px;
+	font-style: italic;
+	font-family: lighter;
+	font-weight: lighter;
+	padding: 10px;
+	margin: 0px;
+}
+
+span {
+	font-size: 19px;
+}
+
+#opinions{
+	color: black;
+	text-decoration: none;
+}
+
+
+.opinions{
+	border-radius: 25px;
+	padding: 20px;
+	padding: 1px;
+    border: 1px solid #021a40;
+    background-color: #D3D3D3;
+	margin: 0px;
+	text-align: center;
+}
+
+.plifestyle{
+	font-family: lighter;
+	font-weight: lighter;
+	font-size:20px;
+	text-decoration: none;
+}
+
+.avatar{
+	border-radius: 25px;
+	padding: 0px;
+	margin: 0px;
+	padding: 1px;	/* for double borders https://css-tricks.com/using-css-for-image-borders/*/
+    border: 1px solid #021a40;
+    background-color: white;
+	float: left;
+}
+
+.valign{								/* how to vertically align anything http://zerosixthree.se/vertical-align-anything-with-just-3-lines-of-css/ */
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	text-decoration: none;
+}

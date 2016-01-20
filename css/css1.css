@@ -77,6 +77,11 @@ body{
 	
 }
 
+a:hover, a:visited, a:link, a:active
+{
+    color :white;
+    text-decoration:none;
+}
 
 #navigation {
 margin-top:5px;
@@ -160,23 +165,30 @@ margin-top:5px;
 
 #content{
 	background: #9AB9A6 center;
-	background-position: center;
+	/*background-position: center;*/
 	
 	padding: 10;
-	width:100%;
+	width:900px;
 	height:auto;
 	margin:2px;
 }
 
 #main-content,table{
 	width:900px;
-	height:auto;
-	padding:5px;
-	background-position:center;
-	
-	
+	height:100%;
+	padding:5px;	
+	table-layout:auto;
 }
 
+#main-content td{
+	height:100%;
+}
+
+#map {
+	width: 500px;
+	height: 400px;
+	
+}
 
 footer{
 	position: fixed;
@@ -188,3 +200,6 @@ footer{
 	header { padding-top:40px; }
 }
 
+p{
+	font-size:20px;
+}
